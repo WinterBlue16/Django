@@ -6,7 +6,7 @@ urlpatterns = [
     # 127.0.0.1:8000/admin/
     path('admin/', admin.site.urls), #저기서 들어오면 이 함수가 실행됨
     # 127.0.0.1:8000/
-    path('', views.index),
+    # path('', views.index),
     # 127.0.0.1:8000/hello/
     path('hello/', views.hello, name='hello_main'),
     # 127.0.0.1:8000/lotto/
